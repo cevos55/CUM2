@@ -1,0 +1,144 @@
+
+
+/* Styles pour le header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .all-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+
+
+.all-header{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.image-spécifique{
+    padding-left: 10px;
+    width:50px ;
+    height: 50px;
+    
+}
+.lien{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+img{
+    height: 450px;
+    width: 650px;
+}
+#image{
+    padding-top: 69px;
+    padding-left: 70px;
+}
+h1 {
+  color: midnightblue;
+  padding-top: 40px;
+}
+
+@media (max-width:410px) {
+    img{
+        width: 80%; 
+       }
+}
+.bloc-texte{
+    margin: 10px;
+    text-align: justify;
+    width: 400px;
+    font-size: 18px;
+   padding-top: 100px;
+        padding-left: 30px;
+
+
+}
+p{
+    font-size: 35px;   
+}
+@media(max-width:320px){
+    
+    .bloc-texte{
+       width: 50%;
+    }
+}
+.image-text{
+    display: flex;
+    padding-top: 50px;
+}
+.block-jaune{
+ position: absolute;
+ top: 400px;
+ left: 140px;
+    background-color: gold;
+    height:250px ;
+    width: 450px;
+}
+@media (max-width:410px) {
+    .block-jaune{
+        width: 40%; 
+       }
+}
+h3{
+    font-size: 2.2rem;
+    padding-top: 0px;
+    text-align: center;
+
+    /* border-right: 2px solid #d9a87e;
+    overflow: hidden;
+    animation: move 5s alternate ease-in-out infinite; */
+}
+.h3{
+   margin: 10px;
+}
+
+button{
+    width: 280px;
+   height: 35px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: white;
+    border-color: white;
+}
+@media (max-width:320px) {
+    button{
+      width: 40%;
+       }
+}
+button:hover{
+    cursor: pointer;
+    color:white;
+    background-color: midnightblue;
+    border-color: white;
+}
+
+.section{
+color: white;
+    background:  midnightblue;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  margin-top: 80px;
+  margin-top: 100px;
+}
+
